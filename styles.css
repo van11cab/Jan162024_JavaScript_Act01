@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+
+
+body{
+    font-family: 'Concert One', sans-serif;
+    height:100%;
+    background-image: "url('img/love.png')";
+    background-size: "contain ";
+    background-repeat: "no-repeat ";
+    background-position: "bottom center";
+
+}
+form{
+    margin-top:5%;
+    width:95vw;
+    display:inline-table;
+    text-align: center;
+}
+
+form p{
+    font-size:  5vw;
+    display: inline;
+}
+input {
+    font-size: 300%;
+    width:43vw;
+    
+    height:150px;
+    border-radius:15px;
+    color:#c93720;
+    background-color: transparent;
+    text-align:center;
+    display: inline;
+
+    border:none;
+ }
+
+button {
+    border-radius:15px;
+    border:none;
+    width:30%;
+    height:40px;
+    background-color: #ff5338;
+    font-size:125%;
+    color:white;
+    font-weight: 150;
+    transition:all 0.5s ease;
+}
+
+button:hover{
+    background-color: #811d0e;
+    transition:all 0.1s ease;
+}
+
+
+#result_holder{
+    text-align: center;
+}
+
+#title{
+    text-align: center;
+    font-size:300%;
+    font-weight:900;
+}
+
+#comment{
+    font-size: 175%;
+    font-weight: 900;
+    margin-top: -10vh;
+}
+
+#textresult{
+    font-size: 175%;
+}
+
+#score{
+    margin-top:-1vh;
+    font-size:600%;
+    font-weight:700;
+}
